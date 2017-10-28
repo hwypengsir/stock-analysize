@@ -1,5 +1,4 @@
 #将股票代码随机排列
-import sqlite3
 import os
 import csv
 import numpy
