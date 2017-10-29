@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+        <style type="text/css">
+            div.note{margin:0 auto;text-align:center;}
+            td{border:1px solid black;}
+            div.photo{margin:0 auto;}
+            img{display:block;margin:20px auto;}
+            div.header{margin:0 auto;text-align:center;}
+            div,table{margin:0 auto;}
+            td.center input{display:block;margin:0 auto;}
+        </style>
+</head>
+<body>
+    <div>
+        <div class="photo"><img src="logo.jpg"></div>
+        <div class="header">海南外国语职业学院新生信息采集</div>
+        <div class="note"><p>填写说明：1.生源所在地：你毕业院校所在省份 </p>
+            <p>2.跟班：没有参加单招考试，暂时就读，明年参加单招考试</p>
+            <form action="info.php" method="post">
+                <table>
+                    <tr>
+                        <td>专业</td>
+                        <td>
+                            <select size="1" name="major">
+                                <option value="17电商1">17电商1</option>
+                                <option value="17电商2">17电商2</option>
+                                <option value="17电商3">17电商3</option>
+                                <option value="17国贸">17国贸</option>
+                                <option value="17会计1">17会计1 </option>
+                                <option value="14物流3+2">14物流3+2</option>
+                                <option value="17商（501）">17商（501）</option>
+                                <option value="17商（502）">17商（502）</option>
+                            </select>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>姓名</td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>性别</td>
+                        <td><select name="sexulity">
+                            <option value="男">男</option>
+                            <option value="女">女</option>
+                            </select></td>
+                    </tr>
+                    <tr><td>生源所在地</td>
+                    <td>
+                        <select name="locality">
+                            <option value="海南">海南</option>
+                            <option value="广东">广东</option>
+                            <option value="广西">广西</option>
+                            <option value="安徽">安徽</option>
+                            <option value="福建">福建</option>
+                            <option value="贵州">贵州</option>
+                            <option value="河北">河北</option>
+                            <option value="河南">河南</option>
+                            <option value="黑龙江">黑龙江</option>
+                            <option value="湖北">湖北</option>
+                            <option value="湖南">湖南</option>
+                            <option value="吉林">吉林</option>
+                            <option value="江苏">江苏</option>
+                            <option value="江西">江西</option>
+                            <option value="辽宁">辽宁</option>
+                            <option value="北京">北京</option>
+                            <option value="山东">山东</option>
+                            <option value="山西">山西</option>
+                            <option value="陕西">陕西</option>
+                            <option value="上海">上海</option>
+                            <option value="四川">四川</option>
+                            <option value="天津">天津</option>
+                            <option value="云南">云南</option>
+                            <option value="浙江">浙江</option>
+                            <option value="重庆">重庆</option>
+                            <option value="甘肃">甘肃</option>
+                            <option value="内蒙古">内蒙古</option>
+                            <option value="新疆">新疆</option>
+                            <option value="宁夏">宁夏</option>
+                            <option value="青海">青海</option>
+                            <option value="西藏">西藏</option>
+                        </select>
+                    </td>
+                    </tr>
+                        <tr><td>就读方式</td>
+                        <td>
+                            <select name="readingway">
+                                <option value="非跟班">非跟班
+                                <option value="跟班">跟班
+                            </select>
+                        </td>
+                        </tr>
+<!--                    <tr>
+                                <td>选择照片</td>
+                                <td><input type="file" name="upimage"></td>
+                   </tr>
+-->
+                        <tr>
+                       <td>身份证号码</td>
+                       <td><input type="text" name="pid"></td>
+                   </tr>
+                   <tr>
+                       <td>电话号码</td>
+                       <td><input type="text" name="phone"></td>
+                   </tr>
+                   <tr>
+                       <td>电子邮箱</td>
+                       <td><input type="text" name="email"></td>
+                   </tr>
+                   <tr>
+                       <td>父亲姓名</td>
+                       <td><input type="text" name="fname"></td>
+                   </tr>
+                   <tr>
+                       <td>父亲电话号码</td>
+                       <td><input type="text" name="fphone"></td>
+                   </tr>
+                   <tr>
+                       <td>母亲姓名</td>
+                       <td><input type="text" name="mname"></td>
+                   </tr>
+                   <tr>
+                       <td>母亲电话号码</td>
+                       <td><input type="text" name="mphone"></td>
+                   </tr>
+                        <tr>
+                            <td>非父母监护人姓名</td>
+                            <td><input type="text" name="kname"></td>
+                        </tr>
+                        <tr>
+                            <td>非父母监护人电话号码</td>
+                            <td><input type="text" name="kphone"></td>
+                        </tr>
+                        <tr><td class="center" colspan="2"><input type="submit" value=" 上  传 "></td></tr>
+               </table>
+           </form>
+       </div>
+</body>
+</html>
